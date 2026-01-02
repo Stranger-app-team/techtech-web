@@ -249,21 +249,23 @@ const Hero = () => {
         className="absolute inset-0 w-full h-full object-cover"
         alt="Pixel Background"
       />
+
       <div className="absolute inset-0 bg-linear-to-b from-black/0 via-black/10 to-black/20" />
 
       <div className="relative z-10 pt-50 text-center px-15">
         <img src={TechTechLogo} className="h-32 mx-auto mb-6" alt="Hero Logo" />
 
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
-          Crafting Digital Excellence For Your Business
+          CRAFTING DIGITAL EXCELLENCE FOR YOUR BUSINESS
+
         </h1>
 
         <p className="text-gray-400 max-w-3xl mx-auto">
           Next-Gen Digital Solutions | Enterprise-Grade Engineering | Scalable Ecosystems
         </p>
 
-        <p className="mt-16 md:mt-20 w-full px-4 font-mono text-gray-500 text-[10px] sm:text-xs tracking-[0.25em] md:tracking-[0.45em] text-center whitespace-nowrap overflow-hidden text-ellipsis">01010100011001010110001101101000 01010100011001010110001101101000</p>
-
+        <p className="mt-10 mb-10 w-full px-4 font-mono text-gray-700 text-sm tracking-[0.25em] md:tracking-[0.45em] text-center whitespace-nowrap overflow-hidden text-ellipsis">
+          01010100011001010110001101101000 01010100011001010110001101101000</p>
 
         <section className="relative overflow-hidden mt-24">
 
@@ -492,15 +494,10 @@ const CoreCompetenciesWithStats = () => {
     {s.label}
   </p>
 </div>
-
               </FadeIn>
             ))}
           </div>
-
         </div>
-
-
-
       </div>
     </section>
   );
@@ -513,7 +510,7 @@ const WhyUsAndDNA = () => {
   {
   title: "Exclusive Teams",
   desc: "Dedicated squads flexibly tailored to your project needs.",
-  icon: <img src={usersIcon} alt="Teams" className="w-45 h-auto opacity-70" />,
+  icon: <img src={usersIcon} alt="Teams" className="w-55 h-auto opacity-70" />,
 },
    {
   title: "Security",
@@ -528,14 +525,14 @@ const WhyUsAndDNA = () => {
   title: "Community",
   desc: "Access to a vast network of experts and resources.",
   icon: (
-    <img src={groupPng} alt="Community" className="w-45 h-auto object-contain opacity-70" 
+    <img src={groupPng} alt="Community" className="w-55 h-auto object-contain opacity-70" 
     />
   ),
 },
    {
   title: "Pricing",
   desc: "Transparent, flexible pricing that fits your budget.",
-  icon: <img src={pricingPng} alt="Pricing Icon" className="w-45 h-auto opacity-70 object-contain" />,
+  icon: <img src={pricingPng} alt="Pricing Icon" className="w-65 h-auto opacity-70 object-contain" />,
 },
   ];
   return (
@@ -543,7 +540,7 @@ const WhyUsAndDNA = () => {
 
       {/* Gradient Base */}
       <div className="absolute inset-0 bg-linear-to-b  from-[#105A67] 
-  via-[#0B3F47] to-black/10" />
+  via-black/10 to-[#0B3F47]" />
 
 
       <CoreNetworkBackground /> {/* Your geometric plexus network */}
@@ -629,7 +626,7 @@ const WhyUsAndDNA = () => {
     min-h-55
     px-10 py-12
     rounded-2xl
-    bg-white/8
+    bg-white/7
     backdrop-blur-xl
     border border-gray-600/30
     flex items-center justify-center
@@ -650,7 +647,7 @@ const CTAFooter = () => (
 
     {/* Base Gradient + Network Background */}
     <div className="absolute inset-0">
-      <div className="absolute inset-0 bg-linear-to-t  from-[#105A67] via-[#0B3F47] to-black" />
+      <div className="absolute inset-0 bg-linear-to-t  from-black/10 via-[#105A67] to-[#0B3F47]" />
       <CoreNetworkBackground /> {/* Your geometric plexus network */}
     </div>
 
@@ -680,9 +677,9 @@ const CTAFooter = () => (
           <span className="text-cyan-400">scalable</span>.
         </h2>
 
-        <div className="mt-10 mb-10 w-full font-mono text-gray-700 text-sm tracking-[0.3em] md:tracking-[0.45em] text-center">
-          01010100011001010110001101101000 01010100011001010110001101101000
-        </div>
+      
+        <p className="mt-10 mb-10 w-full px-4 font-mono text-gray-700 text-sm tracking-[0.25em] md:tracking-[0.45em] text-center whitespace-nowrap overflow-hidden text-ellipsis">
+          01010100011001010110001101101000 01010100011001010110001101101000</p>
       </FadeIn>
 
       <div className="grid md:grid-cols-3 gap-8 mb-10 text-left">
